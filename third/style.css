@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+
+.gray,.blue, .teal, .brown, .yellow{
+    height: 105px;
+    width: 100%;
+    padding: 0px;
+    
+}
+.gray{
+    background-color: lightgray;
+    padding: 10px 200px 10px 20px; 
+}
+.box{
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    position: absolute
+}
+.text_box{
+    height: 300px;
+    width: 100%;
+    padding: 0px;
+}
+p{
+    padding: 60px 50px;
+}
+
+.blue {
+  background-color: #1af; 
+    position: relative;
+}
+
+.teal {
+  background-color: #1da; 
+}
+
+.brown {
+  background-color: #cfb;
+    
+   
+}
+.yellow {
+  background-color: yellow;
+}
+ 

@@ -1,0 +1,21 @@
+*{
+  box-sizing:border-box;
+}
+header {
+  background-color: gray;
+  height: 100px;
+}
+.sides{
+  background-color: #DDD;
+  height: 700px;
+  padding: 0px 150px;
+}
+.contents{
+  background-color: white;
+  height: 600px;
+  margin: 0px;
+}
+.foot{
+  background-color: black;
+  height: 100px;
+}

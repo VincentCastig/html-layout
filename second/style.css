@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+
+.left, .center, .right{
+    height: 100vh;
+    float: left;
+    padding: 0px;
+    width: 33.3333%;
+}
+
+.left {
+  background-color: #1af;  
+}
+
+.center {
+  background-color: #1da; 
+}
+
+.right {
+  background-color: #cfb;
+  position:relative;    
+   
+}
+img{
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    
+}
